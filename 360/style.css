@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: var(--a);
+	font-family:'Poppins', sans-serif;
+}
+:root{
+	--color: #1476ed;
+	--a: #fff;
+	--b: #000;
+	--c: transparent;
+}
+
+body{
+	background: var(--b);
+	height: 100vh;
+	width: 100%;
+}
+.cover{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.nav__bar{
+	width: 100%;
+	height: 100px;
+	background: var(--c);
+}
+ul{
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	list-style: none;
+	gap: 30px;
+}
+ul li{
+	margin-top: 25px;
+}
+ul li a{
+	text-decoration: none;
+	font-size: 13px;
+}
+.logo{
+	position: absolute;
+	width: 144px;
+	left: 80px;
+	top: -32px;
+}
+.active{
+	position: absolute;
+	height: 36px;
+	width: 120px;
+	border: 1px solid var(--a);
+	border-radius: 50px;
+	line-height: 32px;
+	text-align: center;
+	right: 80px;
+	margin: -16px;
+}
+.hero__container{
+	position: absolute;
+	height: 89%;
+	width: 100%;
+/*	background: var(--b);*/
+	bottom: 0;
+}
+.hero__picture{
+	position: absolute;
+	right: 0;
+	height: 100%;
+	width: 50%;
+}
+.picture{
+	position: absolute;
+	width: 60%;
+	margin: 20%;
+}
+.text__content{
+	position: absolute;
+	height: 80%;
+	width: 50%;
+	margin-left: 144px;
+	bottom: 0;
+}
+.text__title{
+	font-size: 144px;
+	font-weight: 100;
+	line-height: 96px;
+}
+.text__title span{
+	margin-left: -64px;
+	font-size: 96px;
+	font-weight: 600;
+}
+.text__title span sup{
+	font-size: 64px;
+	font-weight: 300;
+}
+.text__paragraph{
+	margin: 20px 220px 40px 0px;
+	font-size: 12px;
+}
+.text__button{
+	position: absolute;
+	height: 48px;
+	width: 340px;
+	background: var(--color);
+	border: 1px solid var(--color);
+	border-radius: 50px;
+	font-weight: 300;
+	line-height: 48px;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+}
+.active:hover,
+.text__button:hover{
+	font-weight: 400;
+	border: 1px solid var(--color);
+	scale: 102%;
+	background: var(--color);
+	transition: 0.1s all;
+}
+.news:hover,
+.events:hover,
+.careers:hover,
+.about:hover{
+	color: var(--color);
+}
+
+
+
+
+
+
+
+
+
